@@ -14,12 +14,14 @@ const Search = () =>{
                 <input type="text" name="" id="" placeholder="Search user"className="outline-none w-full p-3 bg-slate-50 border-b-2 border-sky-100" />
             </div>
             {/* User chat below */}
-            <div className="flex gap-2 items-center bg-gray-300 p-3 hover:bg-slate-800 hover:text-white hover:font-bold">
+            <div className="flex gap-2 items-center bg-slate-300 p-3 hover:bg-slate-800 hover:text-white hover:font-bold">
             <img src={Image} alt="" className="w-8 h-8 rounded-full"/>
             <div>
                 <span>
                     Juma
                 </span>
+                <p className='text-xs font-semibold'>
+                  Hello kunte </p>
             </div>
             </div>
             {/* User chat below */}

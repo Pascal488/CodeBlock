@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+
+import Message from './Message';
 
 const Massages = () => {
   return (
-    <div>Massages</div>
+    <div>
+      <div>
+        <Message/>
+        <Message/>
+        <Message/>
+        <Message/>
+
+      </div>
+    </div>
   )
 }
 
