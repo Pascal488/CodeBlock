@@ -30,7 +30,7 @@ const Navbar = () =>{
                 
                 <div>
                 <span>
-                    <button className="bg-black  text-white p-1 text-xs h-5" name="Login" >
+                    <button className="bg-slate-900  text-white p-1 text-xs h-5" name="Login" >
                     <HiOutlineLogout/>
                     </button>
                 </span>

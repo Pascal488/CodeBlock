@@ -5,13 +5,11 @@ import Message from './Message';
 const Massages = () => {
   return (
     <div>
-      <div>
-        <Message/>
-        <Message/>
-        <Message/>
-        <Message/>
-
-      </div>
+        {
+          [...Array(10)].map(item => 
+            <Message key={item} />
+          )
+        }
     </div>
   )
 }
