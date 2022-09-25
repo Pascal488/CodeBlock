@@ -18,11 +18,11 @@ interface Props{
 
 const TodosList:React.FC<Props> = ({ todos, setTodos,completedTodos,setCompletedTodos}) => {
   return (
-      <div className="flex w-1/2 gap-5  justify-center mt-3 relative left-96 md:flex md:flex-col md:left-0 md:items-center  md:justify-center md:w-full md:p-7 lg:flex-col sm:w-2/4">
+      <div className="flex w-1/2 gap-5  justify-center mt-3 relative left-96 md:mt-3 md:flex md:flex-col md:m-auto md:left-0 md:items-center  md:justify-center lg:flex-row lg:left-0 lg:m-auto lg:mt-3 sm:w-2/4 ">
         <Droppable droppableId='TodosList'>
           {
             (provided) =>(
-              <div className="flex flex-col w-2/4 p-2 rounded-l bg-yellow-100" ref={provided.innerRef} {...provided.droppableProps}>
+              <div className="flex flex-col w-2/4 p-2 rounded-l bg-yellow-100 md:w-60 md:p-3  " ref={provided.innerRef} {...provided.droppableProps}>
               <span className='uppercase text-3xl'>
                 Active Task
               </span>
@@ -44,7 +44,7 @@ const TodosList:React.FC<Props> = ({ todos, setTodos,completedTodos,setCompleted
         <Droppable droppableId='TodosRemove'>
           {
             (provided) =>(
-              <div className='flex flex-col w-2/4 p-2 rounded-l  bg-red-100' ref={provided.innerRef} {...provided.droppableProps}>
+              <div className='flex flex-col w-2/4 p-2 rounded-l  bg-red-100 md:w-60 md:p-3  ' ref={provided.innerRef} {...provided.droppableProps}>
               <span className='uppercase text-3xl'>
                     Completed Task
                   </span>

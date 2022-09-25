@@ -59,7 +59,7 @@ const Singlecomponent = ({index,todo,todos,setTodos}:Props) => {
     <Draggable draggableId={todo.id.toString()} index= {index}>
         {
             (provided)=>(
-                <form  className='flex flex-row rounded-xl m-1 cursor-pointer  w-full h-11 bg-blue-700 md:w-full '
+                <form  className='flex flex-row rounded-xl m-1 cursor-pointer  w-full h-11 bg-blue-700 md:m-auto'
                  onSubmit={(e)=>handleEdit(e,todo.id)}
                  {...provided.draggableProps}
                  {...provided.dragHandleProps}
