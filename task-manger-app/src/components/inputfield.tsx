@@ -15,8 +15,8 @@ const Inputfield: React.FC<Props> = ({todo,setTodo,handleAdd}) => {
             (e)=>setTodo(e.target.value)
         }
         
-        type="text" placeholder='Enter a task here ' className='relative left-5 w-64 h-10 border-blue-600 border-solid border-2 rounded bg-teal-50 p-2 '/>
-        <button className='w-12 h-7 relative right-9 rounded-xl bg-blue-700 ' type='submit'>Go</button>
+        type="text" placeholder='Enter a task here ' className='relative left-5 w-64 h-10 border-blue-600 border-solid border-2 rounded bg-teal-50 p-2 sm:relative sm:left-0'/>
+        <button className='w-12 h-7 relative right-9 rounded-xl bg-blue-700 sm:relative sm:-right-24 sm:-top-9' type='submit'>Go</button>
    </form>
   )
 }
