@@ -13,3 +13,10 @@ CODE BLOCK A TECH COMPANY </h1>
 
 
 
+## Task manager app
+    This is an app that simply manage todos it is just a front-end
+    design that have several functionality such as
+- [X] Add a task
+- [X] Edit a task
+- [X] Delete a task
+- [X] Drag and drop functionality
