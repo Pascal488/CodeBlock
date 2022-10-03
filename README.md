@@ -20,3 +20,6 @@ CODE BLOCK A TECH COMPANY </h1>
 - [X] Edit a task
 - [X] Delete a task
 - [X] Drag and drop functionality
+
+
+- [Live site](https://delete-phi.vercel.app/)
