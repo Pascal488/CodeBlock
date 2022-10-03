@@ -23,7 +23,7 @@ const Nav = () => {
 
 
     return(
-        <div className={   " bg-neutral-900 text-gray-400 flex  flex-col m-0 w-60 fixed h-full overflow-auto  align-center text-xl basis-1/4  md:hidden"}>
+        <div className=" bg-neutral-900 text-gray-400 flex  flex-col m-0 w-60 fixed h-full overflow-auto  align-center text-xl basis-1/4  md:hidden do:hidden">
             {/* <div className="p-2 relative left-0 right-0 -mr-52 md:visible">
                 <span className="text-2xl ">
                 <AiOutlineMenu  onClick={() => setShowNav(showNav)}/>

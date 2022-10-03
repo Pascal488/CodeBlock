@@ -21,7 +21,7 @@ const icon2 = <TbMessageDots/>;
 const Left = () =>{
     const [value, onChange] = useState(new Date());
     return(
-        <div className="bg-white  flex  flex-col m-0 w-full fixed h-full overflow-auto  align-center text-xl gap-5">
+        <div className="bg-white  flex  flex-col m-0 w-full fixed h-full overflow-auto  align-center text-xl gap-5 do:hidden">
             <div className="flex  justify-around  border-b-2 max-w-sm pb-5 p-2">
                 <span className="text-2xl w-11 h-11 border-2 border-gray-200 rounded-full p-2 cursor-pointer hover:rotate-45">
                     {icon1}

@@ -22,7 +22,7 @@ module.exports = {
   
         'lw':{'max':'280px'},
   
-        'do':{'max':'540'},
+        'do':{'max':'820px'},
       },
     extend: {
         animation: {
