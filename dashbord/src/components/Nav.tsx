@@ -17,14 +17,14 @@ const color = {style}
 
 const Nav = () => {
     return(
-        <div className="bg-gray-500 flex  flex-col m-0 w-60 fixed h-full overflow-auto  align-center text-xl basis-1/4 ">
+        <div className="bg-neutral-900 text-gray-400 flex  flex-col m-0 w-60 fixed h-full overflow-auto  align-center text-xl basis-1/4 ">
             <div className="flex p-5">
-                <span className="text-2xl">
+                <span className="text-2xl text-cyan-500">
                 <IoIosStats/>
                 </span>
-                <h2>
+                <h2 className="text-white font-extrabold ml-3">
                  TASKION
-            </h2>
+                </h2>
             </div>
             <div >
             <ul className="list-none p-5"> 

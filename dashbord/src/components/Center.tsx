@@ -51,9 +51,9 @@ const Center = () =>{
             
             <div className="flex gap-4 ">  
             <div >
-                <div className="w-52 h-36 bg-blue-400  mb-4">
+                <div className="w-52 h-36 bg-gray-800  mb-4">
                     <div className="flex  align-middle p-8 text-white text-xs">
-                    <span className="text-2xl w-10 h-10 bg-blue-500  p-2 cursor-pointer">
+                    <span className="text-2xl w-10 h-10 bg-gray-700   p-2 cursor-pointer">
                             {icon}
                         </span> 
                          <span className="p-2">
@@ -61,7 +61,7 @@ const Center = () =>{
                             In progress projects
                         </span>  
                     </div>
-                    <div className="flex justify-between relative -top-5 p-3 bg-blue-500  text-sm text-white cursor-pointer">
+                    <div className="flex justify-between relative -top-5 p-3 bg-gray-900  text-sm text-white cursor-pointer">
                     <span>
                     View Details
                     </span>
@@ -70,19 +70,19 @@ const Center = () =>{
                     </span>
                     </div>
                 </div>  
-                <div className="w-52 h-40 bg-blue-400  ">
+                <div className="w-52 h-40 bg-cyan-500  ">
                 <div className="flex   align-middle p-8 text-white text-xs">
-                    <span className="text-2xl w-10 h-10 bg-blue-500  p-2 cursor-pointer">
+                    <span className="text-2xl w-10 h-10 bg-cyan-600  p-2 cursor-pointer">
                             {icon}
                         </span> 
                          <span className="p-2">
                             {projects}<br/>
-                            In progress projects
+                            Projects Completed
                         </span>
                     </div>
                 </div>
-                    <div className="flex justify-between relative -top-7 p-3 bg-blue-500  text-white text-sm cursor-pointer">
-                    <span>
+                    <div className="flex justify-between relative -top-7 p-3 bg-cyan-600   text-white text-sm cursor-pointer">
+                    <span className="text-white">
                     View Details
                     </span>
                     <span className="text-xl ">

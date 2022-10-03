@@ -21,12 +21,12 @@ const icon2 = <TbMessageDots/>;
 const Left = () =>{
     const [value, onChange] = useState(new Date());
     return(
-        <div className="bg-slate-500  flex  flex-col m-0 w-full fixed h-full overflow-auto  align-center text-xl gap-5">
+        <div className="bg-white  flex  flex-col m-0 w-full fixed h-full overflow-auto  align-center text-xl gap-5">
             <div className="flex  justify-around  border-b-2 max-w-sm pb-5 p-2">
-                <span className="text-2xl w-11 h-11 border-2 border-white rounded-full p-2 cursor-pointer hover:rotate-45">
+                <span className="text-2xl w-11 h-11 border-2 border-gray-200 rounded-full p-2 cursor-pointer hover:rotate-45">
                     {icon1}
                 </span>
-                <span className="text-2xl w-11 h-11 border-2 border-white rounded-full p-2 cursor-pointer hover:animate-vibrate-1">
+                <span className="text-2xl w-11 h-11 border-2 border-gray-200  rounded-full p-2 cursor-pointer hover:animate-vibrate-1">
                 {icon2}
                 </span>
                 <span className="text-xl">
@@ -39,12 +39,14 @@ const Left = () =>{
             </div>  
 
 
-            <div className="p-1 text-center">
-            <Calendar onChange={onChange} value={value} className="max-w-[350px] p-1 "/>
+            <div className="p-1 text-center max-h-[150px] border-none">
+            <Calendar onChange={onChange} value={value} className="max-w-[350px] h-80  p-1 "/>
             </div>
 
+            
 
             </div>
+            
     )
 }
 

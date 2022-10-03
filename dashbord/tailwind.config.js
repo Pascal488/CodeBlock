@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+   
     extend: {
         animation: {
             "rotate-diagonal-2": "rotate-diagonal-2 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955)   both"
@@ -63,18 +64,6 @@ keyframes: {
             opacity: "0"
         },
     }}}  },
-    screens: {
-        'xl': {'max': '1279px'},
-        // => @media (max-width: 1279px) { ... }
-  
-        'lg': {'max': '1023px'},
-        // => @media (max-width: 1023px) { ... }
-  
-        'md': {'max': '767px'},
-        // => @media (max-width: 767px) { ... }
-  
-        'sm': {'max': '639px'},
-        // => @media (max-width: 639px) { ... }
-      },
+   
   plugins: [],
 }

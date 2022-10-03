@@ -8,7 +8,7 @@ import Left from './components/Left';
 
 function App() {
   return (
-    <div className="flex  h-screen overflow-scroll bg-gradient-to-t from-white to-slate-100">
+    <div className="flex  h-screen overflow-scroll bg-slate-100 ">
       <div className='basis-1/4 '>
       <Nav/>
       </div>
