@@ -18,7 +18,7 @@ interface Props{
 
 const TodosList:React.FC<Props> = ({ todos, setTodos,completedTodos,setCompletedTodos}) => {
   return (
-      <div className="flex w-1/2 gap-5  justify-center mt-3 relative left-96 md:mt-3 md:flex md:flex-col md:m-auto md:left-0 md:items-center  md:justify-center lg:flex-row lg:left-0 lg:m-auto lg:mt-3 sm:w-2/4 ">
+      <div className="flex w-1/2 gap-5  justify-center mt-3 relative left-96 md:mt-3 md:flex md:flex-col md:m-auto md:left-0 md:items-center  md:justify-center lg:flex-row lg:left-0 lg:m-auto lg:mt-3 sm:w-2/4 hb:m-auto hb:top-0 hb:left-0 hb:mt-3 ">
         <Droppable droppableId='TodosList'>
           {
             (provided) =>(

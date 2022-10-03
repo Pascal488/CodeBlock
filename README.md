@@ -23,3 +23,9 @@ CODE BLOCK A TECH COMPANY </h1>
 
 
 - [ Here is a live site](https://delete-phi.vercel.app/)
+
+
+
+
+## Dashboard Design
+    ![Take a look](https://drive.google.com/file/d/1fWgoJXfd4l3U5TZ5hX4nwgh_iPc8UxO3/view?usp=sharing)
