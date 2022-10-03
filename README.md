@@ -28,4 +28,5 @@ CODE BLOCK A TECH COMPANY </h1>
 
 
 ## Dashboard Design
-    ![Take a look](https://drive.google.com/file/d/1fWgoJXfd4l3U5TZ5hX4nwgh_iPc8UxO3/view?usp=sharing)
+
+![Take a look](https://github.com/Pascal488/CodeBlock/dashbord/img/Task1.png)
