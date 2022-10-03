@@ -9,9 +9,9 @@ import {HiOutlineLogout} from 'react-icons/hi';
 const Navbar = () =>{
     return(
         <div>
-            <div className="flex justify-between text-sm bg-slate-800 p-3 text-white">
-                <div>
-                <span className="text-sm">
+            <div className="flex justify-between text-sm bg-slate-800 p-3 text-white ">
+                <div className="md:hidden">
+                <span className="text-sm ">
                     FaruApp
                 </span>
                 </div>

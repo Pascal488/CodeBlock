@@ -23,7 +23,7 @@ const Chat = () => {
           </div>
         </div>
 
-        <div className='max-h-max overflow-y-scroll py-10'>
+        <div className='max-h-max overflow-y-scroll py-10 no-scrollbar'>
           <Messages/>   
         </div>
         

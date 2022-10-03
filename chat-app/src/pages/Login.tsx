@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 
 const Login = () =>{
     return(
@@ -13,11 +15,16 @@ const Login = () =>{
 
                     </span>
                     <span className="text-xs bottom-0">
-                        <p>Don't have an account? <a href="" className="underline text-sky-400">Sign-Up Here</a></p>
+                        <p>Don't have an account? 
+
+
+                            <Link to='/register' 
+                            
+                            className="underline text-sky-400"
+                            >Sign-Up Here</Link> </p>
                     </span>
                 </div>
         </div>
     )
 }
-
 export default Login;
