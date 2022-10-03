@@ -29,9 +29,4 @@ export interface Response {
 }
 
 
-        // fetch(`https://love-calculator.p.rapidapi.com/getPercentage?sname=${Yourname}&fname=${Loversname} `, this.httpOptions)
-        //     .then(response => {
-        //         return response.json()
-        //     })
-        //     .then(response => console.log(response))
-        //     .catch(err => console.error(err));`
+   
