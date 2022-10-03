@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 import {GoCalendar} from 'react-icons/go';
 import {BsArrowRight,BsPauseCircleFill,BsPlayCircleFill,BsArrowUpShort,BsArrowDownShort} from 'react-icons/bs';
@@ -6,6 +6,7 @@ import {MdOutlineMoreHoriz} from 'react-icons/md'
 
 import {TbMessageDots} from 'react-icons/tb';
 import {FiLink2} from 'react-icons/fi';
+
 const icon = <GoCalendar/>;
 
 const more = <MdOutlineMoreHoriz/>;
@@ -27,31 +28,38 @@ const messageicon = <TbMessageDots/>;
 
 
 
+
 const Center = () =>{
+
+    
+
+  
+
     return(
         <div >
-            <div className="flex flex-col gap-4">
-            <div className="flex justify-between p-4 border-b-2 -ml-32 bg-slate-100">
+            <div className="flex flex-col gap-4   md:-ml-32">
+            <div className="flex justify-between p-4 border-b-2 -ml-32 bg-slate-100 md:ml-0">
                 <div>
                 <h1 className="text-2xl cursor-pointer ">Dashboard</h1>   
                 </div>
-                <div className="bg-white flex flex-row px-5 py-2 cursor-pointer shadow-2xl">
+                <div className="bg-white flex flex-row px-5 py-2 cursor-pointer shadow-2xl md:hidden">
                 <span className="text-2xl ">
                     {icon} 
                 </span>
-                <span className="relative left-1 ">
+                <span className="relative left-1">
                 16 Sep 2022
                 </span>
                 </div>
+            
             </div>
-             <div className="text-sm">
+             <div className="text-sm md:ml-6">
             <h1 className="font-bold">Project Summary </h1>
             <h3 className="text-xs text-gray-500">Let's finish your project for today</h3>
             </div> 
             
-            <div className="flex gap-4 ">  
+            <div className="flex gap-4 md:ml-5 sm:flex-col">  
             <div >
-                <div className="w-52 h-36 bg-gray-800  mb-4">
+                <div className="w-52 h-36 bg-gray-800  mb-4 sm:w-full">
                     <div className="flex  align-middle p-8 text-white text-xs">
                     <span className="text-2xl w-10 h-10 bg-gray-700   p-2 cursor-pointer">
                             {icon}
@@ -70,9 +78,9 @@ const Center = () =>{
                     </span>
                     </div>
                 </div>  
-                <div className="w-52 h-40 bg-cyan-500  ">
+                <div className="w-52 h-40 bg-cyan-500  sm:w-full">
                 <div className="flex   align-middle p-8 text-white text-xs">
-                    <span className="text-2xl w-10 h-10 bg-cyan-600  p-2 cursor-pointer">
+                    <span className="text-2xl w-10 h-10 bg-cyan-600  p-2 cursor-pointer ">
                             {icon}
                         </span> 
                          <span className="p-2">
@@ -81,7 +89,7 @@ const Center = () =>{
                         </span>
                     </div>
                 </div>
-                    <div className="flex justify-between relative -top-7 p-3 bg-cyan-600   text-white text-sm cursor-pointer">
+                    <div className="flex justify-between relative -top-7 p-3 bg-cyan-600   text-white text-sm cursor-pointer ">
                     <span className="text-white">
                     View Details
                     </span>
@@ -185,7 +193,7 @@ const Center = () =>{
                 </div>
             </div>
 
-            <div className="">
+            <div className="md:ml-9 sm:w-full">
                 <div >
                     <ul className="flex justify-between p-5 max-w-xl ">
                         <li className="-ml-5">Projects List</li>
@@ -206,29 +214,29 @@ const Center = () =>{
                 </div>
                 <div className="flex flex-col gap-5  text-black ">
                 <div>
-                <div className="w-5/6 h-20 bg-white mb-5 shadow-lg">
-                    <div className="flex gap-5">
-                    <div className="flex gap-3 p-4">
-                        <span className="text-5xl ">
+                <div className="w-5/6 h-20 bg-white mb-5 shadow-lg md:h-16 sm:w-full">
+                    <div className="flex gap-5 sm:gap-2">
+                        <div className="flex gap-3 p-4 md:p-2 md:gap-1 sm:p-1 sm:gap-1">
+                            <span className="text-5xl ">
+                            
+                            {Pauseicon}
+                            </span>
+                            <span className="font-semibold text-sm">
+                            Time to work <br />
+                            <span className="text-xs text-gray-400">
+                            12 Aug - 26 Aug
+                                </span> 
+                            </span>
                         
-                        {Pauseicon}
-                        </span>
-                        <span className="font-semibold">
-                        Time to work <br />
-                        <span className="text-xs text-gray-400">
-                         12 Aug - 26 Aug
-                            </span> 
-                        </span>
-                       
-                    </div>
-                    <div className="flex  p-4 ">
+                        </div>
+                        <div className="flex  p-4 md:p-1 sm:p-0">
                         <div className="flex-col">
                         <div className="">
                         <span className="font-semibold text-sm">
                             PreCorp Web design 
                             </span>
                         </div>
-                        <div className="flex flex-row text-xs p-2 gap-2 -ml-2 text-gray-400">
+                        <div className="flex flex-row text-xs p-2 gap-2 -ml-2 text-gray-400 sm:p-1 sm:gap-0">
                         <span className="text-sm ">
                             {messageicon} 
                             </span>
@@ -249,8 +257,8 @@ const Center = () =>{
                         
                     
                     </div>
-                    <div className="flex  p-3 -ml-7">
-                        <div className="flex-col relative top-3">
+                    <div className="flex  p-3 -ml-7 md:p-1 sm:p-0 sm:ml-0">
+                        <div className="flex-col relative top-3 sm:top-0">
                         <div className="">
                         <span className="text-xs">
                             75% Completed 
@@ -267,28 +275,28 @@ const Center = () =>{
                     </div>
                     
                 </div>
-                <div className="w-5/6 h-20 bg-white mb-5 shadow-lg">
-                    <div className="flex gap-5">
-                    <div className="flex gap-3 p-4">
+                <div className="w-5/6 h-20 bg-white mb-5 shadow-lg md:h-16 sm:w-full">
+                    <div className="flex gap-5 sm:gap-0 ">
+                    <div className="flex gap-3 p-4 md:p-2 md:gap-1 ">
                         <span className="text-5xl ">
                         {Pauseicon2}
                         </span>
-                        <span className="font-bold" >
+                        <span className="font-bold text-sm" >
                         Time to work <br />
-                        <span className="text-xs text-gray-400">
+                        <span className="text-xs text-gray-400 md:p-1">
                          12 Aug - 26 Aug
                             </span> 
                         </span>
                        
                     </div>
-                    <div className="flex  p-4 ">
+                    <div className="flex  p-4 md:p-2 sm:p-0">
                         <div className="flex-col">
                         <div className="">
                         <span className="font-semibold text-sm">
                             PreCorp Web design 
                             </span>
                         </div>
-                        <div className="flex flex-row text-xs p-2 gap-2 -ml-2 text-gray-400">
+                        <div className="flex flex-row text-xs p-2 gap-2 -ml-2 text-gray-400 md:p-1 md:gap-1 sm:gap-0 ">
                         <span className="text-sm ">
                             {messageicon} 
                             </span>
@@ -309,8 +317,8 @@ const Center = () =>{
                         
                     
                     </div>
-                    <div className="flex  p-3 -ml-7">
-                        <div className="flex-col relative top-3">
+                    <div className="flex  p-3 -ml-7 sm:p-0 sm:ml-0">
+                        <div className="flex-col relative top-3 sm:top-0">
                         <div className="">
                         <span className="text-xs">
                             40% Completed 
@@ -327,9 +335,9 @@ const Center = () =>{
                     </div>
                     
                 </div>
-                <div className="w-5/6 h-20 bg-white mb-5 shadow-lg">
+                <div className="w-5/6 h-20 bg-white mb-5 shadow-lg md:h-16">
                     <div className="flex gap-5">
-                    <div className="flex gap-3 p-4">
+                    <div className="flex gap-3 p-4 md:p-2 md:gap-1">
                         <span className="text-5xl ">
                         {Pauseicon2}
                         </span>
@@ -341,14 +349,14 @@ const Center = () =>{
                         </span>
                        
                     </div>
-                    <div className="flex  p-4 ">
+                    <div className="flex  p-4 md:p-1">
                         <div className="flex-col">
                         <div className="">
                         <span className="font-semibold text-sm">
                             PreCorp Web design 
                             </span>
                         </div>
-                        <div className="flex flex-row text-xs p-2 gap-2 -ml-2 text-gray-400">
+                        <div className="flex flex-row text-xs p-2 gap-2 -ml-2 text-gray-400 ">
                         <span className="text-sm ">
                             {messageicon} 
                             </span>
@@ -369,7 +377,7 @@ const Center = () =>{
                         
                     
                     </div>
-                    <div className="flex  p-3 -ml-7">
+                    <div className="flex  p-3 -ml-7 md:p-1">
                         <div className="flex-col relative top-3">
                         <div className="">
                         <span className="text-xs">
