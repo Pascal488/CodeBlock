@@ -27,7 +27,6 @@ function App() {
           <input type="text" name="Answer" className="outline-none p-1 text-center text-xl text-black " placeholder="Percentage" value={response?.percentage}/>
           <span className='text-xs'>
           {response?.result}
-
           </span>
 
           <h1>Get A %</h1>

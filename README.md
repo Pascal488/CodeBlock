@@ -33,3 +33,15 @@ CODE BLOCK A TECH COMPANY </h1>
 
 
 - [Here is a live site](https://euphonious-biscochitos-374448.netlify.app/)
+
+## Love calculator
+As i have got started with APIs so in the process of building this app
+i got awareness in several aspects such as
+- [x]   Consuming an API 
+- [x]   Axios
+- [x]   All functionality and method offered by Axios
+
+
+
+
+
