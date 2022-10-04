@@ -41,6 +41,8 @@ i got awareness in several aspects such as
 - [x]   Axios
 - [x]   All functionality and method offered by Axios
 
+![Take a look ](https://github.com/Pascal488/CodeBlock/blob/main/love-caluu/img/img.png)
+
 - [Here is a live site](https://courageous-fairy-4eeed8.netlify.app/)
 
 
