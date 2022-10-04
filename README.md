@@ -21,6 +21,7 @@ CODE BLOCK A TECH COMPANY </h1>
 - [X] Delete a task
 - [X] Drag and drop functionality
 
+![Take a look](https://github.com/Pascal488/CodeBlock/blob/main/task-manger-app/img/img.png)
 
 - [ Here is a live site](https://delete-phi.vercel.app/)
 
