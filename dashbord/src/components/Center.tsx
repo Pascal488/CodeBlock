@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { GoCalendar } from 'react-icons/go';
 import { BsArrowRight, BsPauseCircleFill, BsPlayCircleFill, BsArrowUpShort, BsArrowDownShort } from 'react-icons/bs';
-import { MdOutlineMoreHoriz } from 'react-icons/md'
+import { MdOutlineMoreHoriz } from 'react-icons/md';
 
 import { TbMessageDots } from 'react-icons/tb';
 import { FiLink2 } from 'react-icons/fi';
@@ -118,27 +118,6 @@ const Center = () => {
 
                                 <Barchart />
                             </div>
-
-                            {/* <div className="flex justify-around p-4 -ml-10">
-
-                    <div className="w-2 h-2 bg-blue-500 float-left ">
-                    <span className="relative -top-2 left-5 text-xs">
-                            Tasks 
-                        </span>
-                    </div>
-                    
-                        <div className="w-2 h-2 bg-black ">
-                        <span className="relative -top-2 left-5 text-xs">
-                            Tasks
-                        </span>
-                         </div>
-                       
-                        <div className="w-2 h-2 bg-orange-500">
-                        <span className="relative -top-2 left-5 text-xs">
-                            Tasks
-                        </span>
-                        </div>
-                    </div> */}
                         </div>
                         <div className=" w-96 h-16 bg-white text-sm text-black">
 
