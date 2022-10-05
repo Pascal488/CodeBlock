@@ -53,7 +53,7 @@ export const data = {
     {
       label: 'On Target',
       data: labels.map(() => faker.datatype.number({ min: 0, max: 10 })),
-      backgroundColor: 'blue',
+      backgroundColor: '#04D4F0',
     },
     {
       label: 'Target',

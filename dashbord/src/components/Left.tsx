@@ -12,7 +12,7 @@ import { FiLink } from 'react-icons/fi';
 import { CgMore } from 'react-icons/cg';
 import { FcAbout } from "react-icons/fc";
 
-import {IoIosArrowDown} from 'react-icons/io'
+import { IoIosArrowDown } from 'react-icons/io'
 
 
 import Calendar from 'react-calendar';
@@ -25,7 +25,7 @@ const icon2 = <TbMessageDots />;
 const icon3 = <BiAlarmExclamation />;
 
 const icon4 = <FiLink />;
-const icon5 = <IoIosArrowDown/>
+const icon5 = <IoIosArrowDown />
 const more = <CgMore />;
 
 
@@ -36,7 +36,7 @@ const more = <CgMore />;
 const Left = () => {
     //const [value, onChange] = useState(new Date());
     return (
-        <div className="bg-white  flex  flex-col m-0 w-full fixed h-full overflow-auto  align-center text-xl  do:hidden xl:w-full">
+        <div className="bg-white  flex  flex-col m-0 w-full fixed h-full overflow-auto  align-center text-xl  do:hidden xl:w-ful">
 
             <div className="flex  justify-around  border-b-2 max-w-sm pb-5 p-2">
                 <span className="text-2xl w-11 h-11 border-2 border-gray-200 rounded-full p-2 cursor-pointer hover:rotate-45">
@@ -50,12 +50,12 @@ const Left = () => {
                 </span>
                 <span className="text-xs w-16 h-11 relative -left-10 top-1 flex ">
                     <span className="flex flex-col">
-                    <p>Ali Husni</p>
-                    <p className="text-gray-200 font-bold">SilverPlan</p>
+                        <p>Ali Husni</p>
+                        <p className="text-gray-200 font-bold">SilverPlan</p>
                     </span>
-                  <span className="relative left-6 text-sm cursor-pointer">
-                    {icon5}
-                  </span>
+                    <span className="relative left-6 text-sm cursor-pointer">
+                        {icon5}
+                    </span>
                 </span>
             </div>
 
