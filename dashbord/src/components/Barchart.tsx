@@ -9,7 +9,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import {faker} from '@faker-js/faker';
+import { faker } from '@faker-js/faker';
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -24,7 +24,7 @@ export const options = {
   plugins: {
     legend: {
       position: 'bottom' as const,
-      border:'none'
+      border: 'none'
     },
     title: {
       display: false,
@@ -41,7 +41,8 @@ export const options = {
       grid: {
         display: false
       }
-    }}
+    }
+  }
 };
 
 const labels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sut', 'Sun'];
@@ -58,13 +59,13 @@ export const data = {
       label: 'Target',
       data: labels.map(() => faker.datatype.number({ min: 0, max: 30 })),
       backgroundColor: 'black',
-      
+
     },
     {
-        label: 'Off Target',
-        data: labels.map(() => faker.datatype.number({ min: 0, max: 10 })),
-        backgroundColor: 'orange',
-      }
+      label: 'Off Target',
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 10 })),
+      backgroundColor: 'orange',
+    }
   ],
 };
 
