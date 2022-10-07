@@ -1,20 +1,21 @@
 import React from 'react'
 import Meetups from './Meetups'
 
-const MeetupList = (props:any) => {
+const MeetupList:any = (props:any) => {
   return (
     <ul >
     <li className='flex flex-wrap  gap-5 text-white'>
            
            {
-          props.meetups.map((meetups:any)=>{
+          props.meetups.map((meetup:any)=>{
             return(
               <Meetups
-                key={meetups.id}
-                id={meetups.id}
-                image={meetups.image}
-                title={meetups.title}
-                discreption ={meetups.discreption}
+                key={meetup.id}
+                id={meetup.id}
+                image={meetup.image}
+                title={meetup.title}
+                address={meetup.address}
+                discreption ={meetup.discreption}
               />
               
             ) 

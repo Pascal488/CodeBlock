@@ -6,7 +6,7 @@ import Newmeetupform from './Newmeetupform';
 const Newmeetups = (props:any) => {
    const history = useNavigate()
   function addNewmeetup(meetupdata:any){
-        fetch('https://meet-up-a040c-default-rtdb.firebaseio.com/meetup.json',
+        fetch('https://meet-19b09-default-rtdb.firebaseio.com/meetups.json',
         {
           method:'POST',
           body:JSON.stringify(meetupdata),

@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Newmeetupform = (props:any) => {
 
+const Newmeetupform = (props:any) => {
   const handleSubmit =  (e: any) => {
     e.preventDefault()
 
@@ -17,7 +17,6 @@ const Newmeetupform = (props:any) => {
           address:Address,
           TextArea:TextArea,
      }
-
      props.Newmeetup(meetupdata)
      //console.log(meetupdata)
    
@@ -30,7 +29,7 @@ const Newmeetupform = (props:any) => {
         <h3 className='text-white mb-2 text-xl '>Add new meetup </h3>
         <form action="" className='gap-5 ' onSubmit={handleSubmit}>
           <p className='text-left ml-9'><label htmlFor="" className='text-white '>Meetup Title</label></p>
-          <input type="text" placeholder='Add title' className='border-2 border-black outline-none p-2'/>
+          <input type="text" placeholder='Add title'id='title' className='border-2 border-black outline-none p-2' />
           <p className='text-left ml-9'><label htmlFor="" className='text-white '>Meetup Image Url</label></p>
           <input type="url" placeholder='Add image url' className='border-2 border-black outline-none p-2'/>
           <p className='text-left ml-9'><label htmlFor="" className='text-white '>Address</label></p>
