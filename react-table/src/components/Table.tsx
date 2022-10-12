@@ -17,6 +17,19 @@ const Table = () => {
             <td>Haruna</td>
 
         </tr>
+        <tr>
+            <td>Juma</td>
+            <td>Hamisi</td>
+            <td>Shabani</td>
+            <td>Haruna</td>
+
+        </tr>
+        <tr>
+            <td>Juma</td>
+            <td>Hamisi</td>
+            <td>Shabani</td>
+            <td>Haruna</td>
+        </tr>
     </table>
   )
 }
