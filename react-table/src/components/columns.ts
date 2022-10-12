@@ -21,7 +21,7 @@ export const COLUMNS = [
     },
     {
         Header:'Ip Address',
-        acccessor:"ip_address"
+        accessor:"ip_address" as any,
     }
 
 ]

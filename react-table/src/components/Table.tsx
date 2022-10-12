@@ -1,35 +1,72 @@
-import React from 'react'
-import './table.css'
+import React,{useMemo} from 'react'
+import './table.css';
+import {useTable} from 'react-table';
+import {COLUMNS} from './columns';
+import MOCK_DATA from './MOCK_DATA.json'
 
 const Table = () => {
+   const columns = useMemo(() => COLUMNS,[])
+   const data = useMemo(() => MOCK_DATA ,[])
+
+
+   const tableInstance = useTable({
+        columns,
+        data
+
+    }        
+    )
+
+
+    const {
+        getTableProps,
+        getTableBodyProps,
+        headerGroups,
+        rows,
+        prepareRow,
+    } = tableInstance
   return (
-    <table>
-        <tr>
-            <th>Hello</th>
-            <th>Hello</th>
-            <th>Hello</th>
-            <th>Hello</th>
-        </tr>
-        <tr>
-            <td>Juma</td>
-            <td>Hamisi</td>
-            <td>Shabani</td>
-            <td>Haruna</td>
+    <table {...getTableProps()}>
+        <thead>
+            {
+                headerGroups.map((headerGroups)=>(
+                    <tr {...headerGroups.getHeaderGroupProps()}>
+                        {headerGroups.headers.map((columns) =>(
+                         <th {...columns.getHeaderProps()}>
+                            {
+                                columns.render('Header')
+                            }
+                         </th>
 
-        </tr>
-        <tr>
-            <td>Juma</td>
-            <td>Hamisi</td>
-            <td>Shabani</td>
-            <td>Haruna</td>
-
-        </tr>
-        <tr>
-            <td>Juma</td>
-            <td>Hamisi</td>
-            <td>Shabani</td>
-            <td>Haruna</td>
-        </tr>
+                        ))}
+                    
+                </tr>
+                ))
+            }
+        
+        </thead>
+       <tbody {...getTableBodyProps()}>
+        {
+            rows.map(rows=>{
+                prepareRow(rows)
+            return(
+                 <tr {...rows.getRowProps()}>
+                    {
+                        rows.cells.map((cell)=>{
+                            return(
+                            <td {...cell.getCellProps()}>
+                                {cell.render('Cell')}
+                            </td>
+                            )
+                        })
+                    }
+                 </tr>
+                )
+            })
+        }
+       
+       
+       </tbody>
+       
     </table>
   )
 }
