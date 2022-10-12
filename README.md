@@ -33,7 +33,7 @@ CODE BLOCK A TECH COMPANY </h1>
 ![Take a look](https://github.com/Pascal488/CodeBlock/blob/main/dashbord/img/Task1.png)
 
 
-- [Here is a live site](https://euphonious-biscochitos-374448.netlify.app/)
+- [Here is a live site](https://dash-9n6sqtf5k-pascal488.vercel.app/)
 
 ## Love calculator
 As i have got started with APIs so in the process of building this app
