@@ -51,10 +51,10 @@ i got awareness in several aspects such as
 ## Meet Up site
 The site allows user to 
 
--[x] Add the meet up data
--[x] Add meetup image 
--[x] Add a meetup description
--[x] View all meetup data added
+- [x] Add the meet up data
+- [x] Add meetup image 
+- [x] Add a meetup description
+- [x] View all meetup data added
 
 ![Take a look ](https://github.com/Pascal488/CodeBlock/blob/main/meet-up/img/img.png)
 
