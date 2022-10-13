@@ -3,29 +3,29 @@ import {Link } from 'react-router-dom';
 
 
 
-const Mainnavigation = () => {
+const Mainnavigation = (props:any) => {
   return (
     <header >
         
-        <nav>
+        <nav >
 
             <ul className='list-none float-left p-5 flex flex-row gap-5 bg-black w-full text-white justify-around  '>
-            <li >
-             Meet-Ups
+            <li className='md:hidden'>
+             MeetUps
                 </li>
-                <li className='hover:bg-yellow-500  hover:text-black'>
+                <li className='hover:bg-yellow-500  hover:text-black '>
                 <Link to='/' className='py-5 px-3'>
-                    All Meet-Ups
+                    All MeetUps
                 </Link>
                 </li>
                 <li className='hover:bg-yellow-500  hover:text-black'>
                 <Link to='/new'  className='py-5 px-3'>
-                    Add Meet-Ups
+                    Add MeetUps
                 </Link>
                 </li>
                 <li className='hover:bg-yellow-500  hover:text-black'>
                 <Link to='/favorite'  className='py-5 px-3'>
-                    Favorites Meet-Ups
+                    Favorites MeetUps
                 </Link>
                 </li>
             </ul>

@@ -21,7 +21,7 @@ const MeetupList:any = (props:any) => {
             ) 
           })
          }
-    </li>
+      </li>
     </ul>
   )
 }

@@ -5,10 +5,10 @@ const Newmeetupform = (props:any) => {
   const handleSubmit =  (e: any) => {
     e.preventDefault()
 
-    const Title = e.target[0].value;
-    const Image = e.target[1].value;
-    const Address = e.target[2].value;
-    const TextArea = e.target[3].value;
+    const Title:string = e.target[0].value;
+    const Image:string = e.target[1].value;
+    const Address:string = e.target[2].value;
+    const TextArea:string = e.target[3].value;
 
     //console.log("Values are",Title,Image,Address,TextArea)
      const meetupdata = {
@@ -17,6 +17,9 @@ const Newmeetupform = (props:any) => {
           address:Address,
           TextArea:TextArea,
      }
+     //if(meetupdata.TextArea === ""){
+        //console.log("Enter values")
+     //}
      props.Newmeetup(meetupdata)
      //console.log(meetupdata)
    

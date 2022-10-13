@@ -11,9 +11,11 @@ import Mainnavigation from './components/layouts/Mainnavigation';
 
 function App() {
   return (
-    <div>
+    <div >
     <BrowserRouter>
-      <Mainnavigation/>
+    <div >
+    <Mainnavigation />
+    </div>
           <Routes>
             <Route path='/'>
             <Route index element={<Allmeetups />}/>
