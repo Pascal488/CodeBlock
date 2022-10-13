@@ -58,7 +58,7 @@ The site allows user to
 
 ![Take a look ](https://github.com/Pascal488/CodeBlock/blob/main/meet-up/img/img.png)
 
--[Here is a live site ](https://regal-basbousa-c2f7fd.netlify.app/)
+- [Here is a live site ](https://regal-basbousa-c2f7fd.netlify.app/)
 
 
 
