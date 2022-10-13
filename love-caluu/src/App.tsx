@@ -13,7 +13,7 @@ function App() {
 
     Yourname = e.target[1].value;
     Loversname = e.target[2].value;
-    console.log('Values ar here', Yourname, Loversname);
+    console.log('Values are here', Yourname, Loversname);
     const API = new ApiService();
     let data: any = await API.calculateValue(Yourname, Loversname);
     console.log(data.data);

@@ -50,6 +50,7 @@ i got awareness in several aspects such as
 
 ## Meet Up site
 The site allows user to 
+
 -[x] Add the meet up data
 -[x] Add meetup image 
 -[x] Add a meetup description
