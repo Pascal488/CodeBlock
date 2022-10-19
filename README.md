@@ -23,7 +23,7 @@ CODE BLOCK A TECH COMPANY </h1>
 - [X] Delete a task
 - [X] Drag and drop functionality
 
-![Take a look](https://github.com/Pascal488/CodeBlock/blob/main/task-manger-app/img/img.png)
+
 
 - [ Here is a live site](https://delete-phi.vercel.app/)
 
@@ -32,7 +32,6 @@ CODE BLOCK A TECH COMPANY </h1>
 
 ## Dashboard Design
 
-![Take a look](https://github.com/Pascal488/CodeBlock/blob/main/dashbord/img/Task1.png)
 
 
 - [Here is a live site](https://dash-9n6sqtf5k-pascal488.vercel.app/)
@@ -44,7 +43,7 @@ i got awareness in several aspects such as
 - [x]   Axios
 - [x]   All functionality and method offered by Axios
 
-![Take a look ](https://github.com/Pascal488/CodeBlock/blob/main/love-caluu/img/img.png)
+
 
 - [Here is a live site](https://courageous-fairy-4eeed8.netlify.app/)
 
@@ -58,7 +57,7 @@ The site allows user to
 - [x] Add a meetup description
 - [x] View all meetup data added
 
-![Take a look ](https://github.com/Pascal488/CodeBlock/blob/main/meet-up/img/img.png)
+
 
 - [Here is a live site ](https://regal-basbousa-c2f7fd.netlify.app/)
 
